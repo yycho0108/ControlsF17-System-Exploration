@@ -40,7 +40,7 @@ plot(t, x_ref(t), '--', 'LineWidth', 2);
 plot(t, zeros(n,1), 'LineWidth', 2, 'Color', [0,0,0]);
 
 hold off;
-legend('x', 'y', 'x_{ref}');
+legend('x', 'u', 'x_{ref}');
 title('Setpoint Control');
 xlabel('Time (s)');
 ylabel('Position (m)');
